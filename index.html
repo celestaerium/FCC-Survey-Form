@@ -1,3 +1,77 @@
+<!-- PAY NO ATTENTION TO THE COMMENTS
+BEHIND THE CURTAIN -->
+
+<!-- SETUP -->
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- MORE BROWSER INFO -->
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Gaming Survey Form</title>
+</head>
+
+<body>
+  <!-- TITLE AND DESCRIPTION -->
+  <section id="survey-desc">
+    <h1 id="title">Gaming Survey Form</h1>
+    <p id="description">Please fill out this survey with your gaming habits.</p>
+  </section>
+
+  <!-- SURVEY QUESTIONS -->
+  <section id="survey-quest">
+    <form id="survey-form">
+      <!-- USER INFO -->
+      <fieldset id="user-info">
+        <label for="name" id="name-label">Name: <input id="name" type="text" name="name" placeholder="Name" required /></label>
+        <label for="email" id="email-label">Email: <input id="email" type="email" name="email" placeholder="Email" required /></label>
+        <label for="number" id="number-label">Age: <input id="number" type="number" name="number" placeholder="Age" min="0" max="200" required /></label>
+      </fieldset>
+
+      <!-- GAMING HABITS -->
+      <fieldset id="game-habits">
+        <label for="dropdown">How do you prefer to play games?
+      <select id="dropdown">
+        <option value="">-- Please select one --</option>
+        <option value="single">Single-player</option>
+        <option value="family">Multiplayer, with family</option>
+        <option value="friends">Multiplayer, with friends</option>
+        <option value="friends-and-family">Multiplayer, with friends and family</option>
+        <option value="random">Multiplayer, randomly matched</option>
+        <option value="other">Other</option>
+      </select>
+      </label>
+        <p>What do you typically play games on?</p>
+        <label for="console"><input id="console" value="console" name="gaming-device" type="radio" checked />Console</label>
+        <label for="pc"><input id="pc" value="pc" name="gaming-device" type="radio">PC</label>
+        <label for="mobile"><input id="mobile" value="mobile" name="gaming-device" type="radio">Mobile</label>
+      </fieldset>
+
+      <!-- TYPES OF GAMES -->
+      <fieldset id="game-types">
+        <p>What types of games do you play? (Select all that apply.)</p>
+        <label for="adventure"><input id="adventure" value="adventure" name="adventure" type="checkbox">Adventure</label>
+        <label for="fighting"><input id="fighting" value="fighting" name="fighting" type="checkbox">Fighting</label>
+        <label for="platformer"><input id="platformer" value="platformer" name="platformer" type="checkbox">Platformer</label>
+        <label for="rhythm"><input id="rhythm" value="rhythm" name="rhythm" type="checkbox">Rhythm</label>
+        <label for="rpg"><input id="rpg" value="rpg" name="rpg" type="checkbox">RPG</label>
+        <label for="simulation"><input id="simulation" value="simulation" name="simulation" type="checkbox">Simulation</label>
+        <label for="vis-nov"><input id="vis-nov" value="vis-nov" name="vis-nov" type="checkbox">Visual Novel</label>
+      </fieldset>
+
+      <!-- QUESTIONS, COMMENTS, CONCERNS? -->
+      <fieldset id="final-thoughts">
+        <p>Any additional comments?</p>
+        <textarea id="thoughts" rows="8" cols="45" placeholder="Please type here."></textarea>
+      </fieldset>
+
+      <!-- SUBMIT BUTTON -->
+      <input id="submit" type="submit" />
+
+    </form>
+  </section>
+</body>
+
 </html>
