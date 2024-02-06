@@ -33,7 +33,6 @@ body {
   background-image: linear-gradient(rgba(80, 0, 107, 0.35), rgba(127, 0, 255, 0.5)), url('./images/bg-image-lorenzo.jpg');
   background-size: cover; /* change later?? */
   background-color: black; /* if the gradient and image don't work */
-  background-attachment: fixed;
   color: white;
   height: 100%;
   width: 75vw;
