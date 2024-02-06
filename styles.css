@@ -35,6 +35,7 @@ body {
   background-size: cover; /* change later?? */
   background-color: black; /* if the gradient and image don't work */
   color: white;
+  height: 100%;
   width: 75vw;
   max-width: 1000px;
 }
