@@ -3,6 +3,7 @@
 html {
   height: 100%;
   width: 100%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h1 {
   background-color: rgba(19, 8, 36, 0.92);
   border-radius: 15px;
   padding: 25px 20px;
-  margin: 20px 0;
+  margin: 20px auto;
   width: 60vw;
   max-width: 800px;
 }
