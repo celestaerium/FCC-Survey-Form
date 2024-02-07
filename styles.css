@@ -6,16 +6,16 @@ html {
 }
 
 body {
+  color: white; /* CHANGE THIS, COLOR PALETTE */
   font-family: sans-serif;
   font-size: 1.5rem;
-  margin: 0 auto;
+  margin: 0 auto; /* CHANGE THIS?, figure out why slightly off center on mobile */
   background-image: linear-gradient(rgba(80, 0, 107, 0.35) 0%, rgba(127, 0, 255, 0.5) 100%), url('./images/bg-image-lorenzo.jpg');
-  background-color: black; /* if the gradient and image don't work <- CHANGE THIS */
+  background-color: black; /* if the gradient and image don't work <- CHANGE THIS, SEE COLOR PALETTE */
   background-size: cover;
   background-attachment: fixed;
-  color: white; /* CHANGE THIS*/
   height: 100vh;
-  width: 75vw;
+  width: 74vw; /* is this what's messing up the alignment?? */
   max-width: 1000px;
 }
 
@@ -28,6 +28,7 @@ h1 {
   text-shadow: 5px 6px 3px rgb(3, 3, 22);
 }
 
+/* after check/fix comments, start here */
 #title {
   background-color: rgba(19, 8, 36, 0.92);
   border-radius: 15px;
@@ -50,7 +51,7 @@ h1 {
 }
 
 fieldset {
-  border: none;
+  border: 2px solid;
 }
 
 label, input {
