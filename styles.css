@@ -17,8 +17,8 @@ h1 {
 #title {
   background-color: rgba(19, 8, 36, 0.92);
   border-radius: 15px;
-  padding: 20px 20px;
-  margin: 20px auto;
+  padding: 25px 20px;
+  margin: 20px 0;
   width: 60vw;
   max-width: 800px;
 }
