@@ -6,6 +6,7 @@
 #F0EFF4 - Ghost White
 */
 
+/* FONT - Dosis - Title */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 
 html {
@@ -36,7 +37,6 @@ h1 {
   text-shadow: 5px 6px 3px rgb(3, 3, 22);
 }
 
-/* after check/fix comments, start here */
 #title {
   background-color: rgba(19, 8, 36, 0.92);
   border-radius: 15px;
@@ -71,6 +71,6 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 textarea {
-  width: 30vw;
+  width: 50vw;
   max-width: 800px;
 }
