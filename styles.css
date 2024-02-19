@@ -42,8 +42,11 @@ h1 {
   border-radius: 15px;
 }
 
-#title {
+#title, #description {
   padding: 25px 20px;
+}
+
+#title {
   margin: 20px auto;
   width: 60vw;
   max-width: 800px;
@@ -51,7 +54,6 @@ h1 {
 
 #description {
   border-left: 20px solid rgb(142,21,129);
-  padding: 25px 20px;
 }
 
 #survey-quest {
