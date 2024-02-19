@@ -23,8 +23,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
-  width: 74%; /* is this what's messing up the alignment?? */
-  max-width: 1000px;
+  width: 74vw; /* is this what's messing up the alignment?? */
 }
 
 h1 {
