@@ -34,12 +34,15 @@ h1 {
   letter-spacing: 0.65px;
   word-spacing: 12px;
   text-align: center;
-  text-shadow: 5px 6px 3px rgb(3, 3, 22);
+  text-shadow: 5px 6px 3px #191716;
+}
+
+#title, #description, #survey-quest {
+  background-color: rgba(19, 8, 36, 0.92);
+  border-radius: 15px;
 }
 
 #title {
-  background-color: rgba(19, 8, 36, 0.92);
-  border-radius: 15px;
   padding: 25px 20px;
   margin: 20px auto;
   width: 60vw;
@@ -48,13 +51,10 @@ h1 {
 
 #description {
   border-left: 20px solid rgb(142,21,129);
+  padding: 10px 10px;
 }
 
-
-
-#description, #survey-quest {
-  background-color: rgba(19, 8, 36, 0.92);
-  border-radius: 15px;
+#surveyquest {
   padding: 15px 15px;
 }
 
