@@ -37,7 +37,7 @@ h1 {
   text-shadow: 5px 6px 3px #191716;
 }
 
-#title, #description, #survey-quest {
+#title, #description, #survey-quest, footer {
   background-color: rgba(19, 8, 36, 0.92);
   border-radius: 15px;
 }
@@ -50,7 +50,7 @@ h1 {
 }
 
 #description {
-  border-left: 20px solid rgb(142,21,129);
+  border-left: 20px solid #8E1581;
   padding: 22px 20px;
 }
 
@@ -59,21 +59,27 @@ h1 {
 }
 
 fieldset {
-  border: 4px ridge #4D7EA8;
-  margin: 25px;
-  padding: 20px 14px;
+  border: inset 4px #C1BDB3;
+  margin: 16px;
+  padding: 22px 2px;
 }
 
-label, input {
+label, textarea, #dropdown, #submit {
   display: block;
-  margin: 15px;
-}
-
-input[type="radio"], input[type="checkbox"] {
-  display: inline;
+  margin: 10px;
 }
 
 textarea {
   width: 50vw;
   max-width: 800px;
+}
+
+#submit {
+  margin: 0 auto;
+}
+
+footer {
+  border-left: 20px solid #4D7EA8;
+  margin: 5px;
+  padding: 0px 20px;
 }
