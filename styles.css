@@ -59,7 +59,7 @@ h1 {
 }
 
 fieldset {
-  border: inset 4px #C1BDB3;
+  border: solid 4px #C1BDB3;
   margin: 16px;
   padding: 22px 2px;
 }
